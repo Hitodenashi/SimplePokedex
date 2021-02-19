@@ -11,7 +11,7 @@ using System.Text;
 
 namespace Pokedex_App.Droid
 {
-    [Activity(Label = "SplashScreen", MainLauncher=true, Theme="@style/SplashTheme", NoHistory=true, Icon="@drawable/PokeDexLogo")]
+    [Activity(Label = "Simple PokeDex", MainLauncher=true, Theme="@style/SplashTheme", NoHistory=true, Icon="@drawable/PokeDexLogo")]
     public class SplashScreen : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
